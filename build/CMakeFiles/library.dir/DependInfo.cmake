@@ -10,6 +10,8 @@ set(CMAKE_DEPENDS_LANGUAGES
 set(CMAKE_DEPENDS_DEPENDENCY_FILES
   "D:/CPP/c_cpp_projs/Library/src/core.cpp" "CMakeFiles/library.dir/src/core.cpp.obj" "gcc" "CMakeFiles/library.dir/src/core.cpp.obj.d"
   "D:/CPP/c_cpp_projs/Library/src/math/vec2.cpp" "CMakeFiles/library.dir/src/math/vec2.cpp.obj" "gcc" "CMakeFiles/library.dir/src/math/vec2.cpp.obj.d"
+  "D:/CPP/c_cpp_projs/Library/src/math/vec3.cpp" "CMakeFiles/library.dir/src/math/vec3.cpp.obj" "gcc" "CMakeFiles/library.dir/src/math/vec3.cpp.obj.d"
+  "D:/CPP/c_cpp_projs/Library/src/math/vec4.cpp" "CMakeFiles/library.dir/src/math/vec4.cpp.obj" "gcc" "CMakeFiles/library.dir/src/math/vec4.cpp.obj.d"
   )
 
 # Targets to which this target links which contain Fortran sources.

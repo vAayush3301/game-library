@@ -213,6 +213,54 @@ src/math/vec2.cpp.s:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\library.dir\build.make CMakeFiles/library.dir/src/math/vec2.cpp.s
 .PHONY : src/math/vec2.cpp.s
 
+src/math/vec3.obj: src/math/vec3.cpp.obj
+.PHONY : src/math/vec3.obj
+
+# target to build an object file
+src/math/vec3.cpp.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\library.dir\build.make CMakeFiles/library.dir/src/math/vec3.cpp.obj
+.PHONY : src/math/vec3.cpp.obj
+
+src/math/vec3.i: src/math/vec3.cpp.i
+.PHONY : src/math/vec3.i
+
+# target to preprocess a source file
+src/math/vec3.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\library.dir\build.make CMakeFiles/library.dir/src/math/vec3.cpp.i
+.PHONY : src/math/vec3.cpp.i
+
+src/math/vec3.s: src/math/vec3.cpp.s
+.PHONY : src/math/vec3.s
+
+# target to generate assembly for a file
+src/math/vec3.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\library.dir\build.make CMakeFiles/library.dir/src/math/vec3.cpp.s
+.PHONY : src/math/vec3.cpp.s
+
+src/math/vec4.obj: src/math/vec4.cpp.obj
+.PHONY : src/math/vec4.obj
+
+# target to build an object file
+src/math/vec4.cpp.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\library.dir\build.make CMakeFiles/library.dir/src/math/vec4.cpp.obj
+.PHONY : src/math/vec4.cpp.obj
+
+src/math/vec4.i: src/math/vec4.cpp.i
+.PHONY : src/math/vec4.i
+
+# target to preprocess a source file
+src/math/vec4.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\library.dir\build.make CMakeFiles/library.dir/src/math/vec4.cpp.i
+.PHONY : src/math/vec4.cpp.i
+
+src/math/vec4.s: src/math/vec4.cpp.s
+.PHONY : src/math/vec4.s
+
+# target to generate assembly for a file
+src/math/vec4.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\library.dir\build.make CMakeFiles/library.dir/src/math/vec4.cpp.s
+.PHONY : src/math/vec4.cpp.s
+
 # Help Target
 help:
 	@echo The following are some of the valid targets for this Makefile:
@@ -232,6 +280,12 @@ help:
 	@echo ... src/math/vec2.obj
 	@echo ... src/math/vec2.i
 	@echo ... src/math/vec2.s
+	@echo ... src/math/vec3.obj
+	@echo ... src/math/vec3.i
+	@echo ... src/math/vec3.s
+	@echo ... src/math/vec4.obj
+	@echo ... src/math/vec4.i
+	@echo ... src/math/vec4.s
 .PHONY : help
 
 

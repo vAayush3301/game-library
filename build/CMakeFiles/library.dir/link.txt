@@ -1,2 +1,2 @@
-C:\MinGW\bin\ar.exe qc liblibrary.a CMakeFiles/library.dir/src/core.cpp.obj CMakeFiles/library.dir/src/math/vec2.cpp.obj
+C:\MinGW\bin\ar.exe qc liblibrary.a CMakeFiles/library.dir/src/core.cpp.obj CMakeFiles/library.dir/src/math/vec2.cpp.obj CMakeFiles/library.dir/src/math/vec3.cpp.obj CMakeFiles/library.dir/src/math/vec4.cpp.obj
 C:\MinGW\bin\ranlib.exe liblibrary.a
