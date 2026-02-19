@@ -9,3 +9,6 @@ add_library(library
 )
 
 target_include_directories(library PUBLIC include)
+
+add_executable(example examples/main.cpp)
+target_link_libraries(example PRIVATE library)

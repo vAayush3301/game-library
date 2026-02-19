@@ -128,6 +128,43 @@ library/fast:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\library.dir\build.make CMakeFiles/library.dir/build
 .PHONY : library/fast
 
+#=============================================================================
+# Target rules for targets named example
+
+# Build rule for target.
+example: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Makefile2 example
+.PHONY : example
+
+# fast build rule for target.
+example/fast:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\example.dir\build.make CMakeFiles/example.dir/build
+.PHONY : example/fast
+
+examples/main.obj: examples/main.cpp.obj
+.PHONY : examples/main.obj
+
+# target to build an object file
+examples/main.cpp.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\example.dir\build.make CMakeFiles/example.dir/examples/main.cpp.obj
+.PHONY : examples/main.cpp.obj
+
+examples/main.i: examples/main.cpp.i
+.PHONY : examples/main.i
+
+# target to preprocess a source file
+examples/main.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\example.dir\build.make CMakeFiles/example.dir/examples/main.cpp.i
+.PHONY : examples/main.cpp.i
+
+examples/main.s: examples/main.cpp.s
+.PHONY : examples/main.s
+
+# target to generate assembly for a file
+examples/main.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\example.dir\build.make CMakeFiles/example.dir/examples/main.cpp.s
+.PHONY : examples/main.cpp.s
+
 src/core.obj: src/core.cpp.obj
 .PHONY : src/core.obj
 
@@ -160,7 +197,11 @@ help:
 	@echo ... depend
 	@echo ... edit_cache
 	@echo ... rebuild_cache
+	@echo ... example
 	@echo ... library
+	@echo ... examples/main.obj
+	@echo ... examples/main.i
+	@echo ... examples/main.s
 	@echo ... src/core.obj
 	@echo ... src/core.i
 	@echo ... src/core.s

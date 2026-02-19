@@ -1,3 +1,4 @@
 D:/CPP/c_cpp_projs/Library/build/CMakeFiles/library.dir
+D:/CPP/c_cpp_projs/Library/build/CMakeFiles/example.dir
 D:/CPP/c_cpp_projs/Library/build/CMakeFiles/edit_cache.dir
 D:/CPP/c_cpp_projs/Library/build/CMakeFiles/rebuild_cache.dir
