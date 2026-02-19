@@ -1,4 +1,5 @@
 #include "library/math/mat4.h"
+#include <cmath>
 
 namespace gamelib::math {
     Mat4 Mat4::identity() {
@@ -53,6 +54,48 @@ namespace gamelib::math {
                 }
             }
         }
+
+        return result;
+    }
+
+    Mat4 Mat4::rotationX(float angleRadians) {
+        Mat4 result = Mat4::identity();
+
+        float c = cos(angleRadians);
+        float s = sin(angleRadians);
+
+        result.m[1][1] = c;
+        result.m[1][2] = -s;
+        result.m[2][1] = s;
+        result.m[2][2] = c;
+
+        return result;
+    }
+
+    Mat4 Mat4::rotationY(float angleRadians) {
+        Mat4 result = Mat4::identity();
+
+        float c = cos(angleRadians);
+        float s = sin(angleRadians);
+
+        result.m[0][0] = c;
+        result.m[0][2] = s;
+        result.m[2][0] = -s;
+        result.m[2][2] = c;
+
+        return result;
+    }
+
+    Mat4 Mat4::rotationZ(float angleRadians) {
+        Mat4 result = Mat4::identity();
+
+        float c = cos(angleRadians);
+        float s = sin(angleRadians);
+
+        result.m[0][0] = c;
+        result.m[0][1] = -s;
+        result.m[1][0] = s;
+        result.m[1][1] = c;
 
         return result;
     }
