@@ -21,5 +21,7 @@ namespace gamelib::math
         Vec3 normalized() const;
 
         float dot(const Vec3& other) const;
+
+        Vec3 cross(const Vec3& other) const;
     };
 }
