@@ -1,18 +1,25 @@
 #include "library/math/vec4.h"
 #include "library/math/mat4.h"
 #include <iostream>
+#include <cmath>
+
+using namespace gamelib::math;
 
 int main() {
-    gamelib::math::Vec4 point(1, 2, 3, 1);
+    Vec4 point(1, 0, 0, 1);
 
-    gamelib::math::Mat4 t = gamelib::math::Mat4::translation(5, 0, 0);
+    Mat4 scale = Mat4::scale(2, 2, 2);
+    Mat4 rot = Mat4::rotationZ(M_PI / 2);
+    Mat4 trans = Mat4::translation(3, 0, 0);
 
-    gamelib::math::Vec4 moved = t * point;
+    Mat4 model = trans * rot * scale;
 
-    std::cout << moved.x << "\n";
-    std::cout << moved.y << "\n";
-    std::cout << moved.z << "\n";
-    std::cout << moved.w << "\n";
+    Vec4 result = model * point;
+
+    std::cout << result.x << "\n";
+    std::cout << result.y << "\n";
+    std::cout << result.z << "\n";
+    std::cout << result.w << "\n";
 
     return 0;
 }

@@ -38,6 +38,7 @@ CMakeFiles/example.dir/examples/main.cpp.obj: D:/CPP/c_cpp_projs/Library/example
   C:/MinGW/lib/gcc/x86_64-w64-mingw32/8.1.0/include/c++/bits/predefined_ops.h \
   C:/MinGW/lib/gcc/x86_64-w64-mingw32/8.1.0/include/c++/bits/ptr_traits.h \
   C:/MinGW/lib/gcc/x86_64-w64-mingw32/8.1.0/include/c++/bits/range_access.h \
+  C:/MinGW/lib/gcc/x86_64-w64-mingw32/8.1.0/include/c++/bits/specfun.h \
   C:/MinGW/lib/gcc/x86_64-w64-mingw32/8.1.0/include/c++/bits/std_abs.h \
   C:/MinGW/lib/gcc/x86_64-w64-mingw32/8.1.0/include/c++/bits/stl_algobase.h \
   C:/MinGW/lib/gcc/x86_64-w64-mingw32/8.1.0/include/c++/bits/stl_function.h \
@@ -52,6 +53,7 @@ CMakeFiles/example.dir/examples/main.cpp.obj: D:/CPP/c_cpp_projs/Library/example
   C:/MinGW/lib/gcc/x86_64-w64-mingw32/8.1.0/include/c++/cctype \
   C:/MinGW/lib/gcc/x86_64-w64-mingw32/8.1.0/include/c++/cerrno \
   C:/MinGW/lib/gcc/x86_64-w64-mingw32/8.1.0/include/c++/clocale \
+  C:/MinGW/lib/gcc/x86_64-w64-mingw32/8.1.0/include/c++/cmath \
   C:/MinGW/lib/gcc/x86_64-w64-mingw32/8.1.0/include/c++/cstdint \
   C:/MinGW/lib/gcc/x86_64-w64-mingw32/8.1.0/include/c++/cstdio \
   C:/MinGW/lib/gcc/x86_64-w64-mingw32/8.1.0/include/c++/cstdlib \
@@ -80,6 +82,18 @@ CMakeFiles/example.dir/examples/main.cpp.obj: D:/CPP/c_cpp_projs/Library/example
   C:/MinGW/lib/gcc/x86_64-w64-mingw32/8.1.0/include/c++/string \
   C:/MinGW/lib/gcc/x86_64-w64-mingw32/8.1.0/include/c++/string_view \
   C:/MinGW/lib/gcc/x86_64-w64-mingw32/8.1.0/include/c++/system_error \
+  C:/MinGW/lib/gcc/x86_64-w64-mingw32/8.1.0/include/c++/tr1/bessel_function.tcc \
+  C:/MinGW/lib/gcc/x86_64-w64-mingw32/8.1.0/include/c++/tr1/beta_function.tcc \
+  C:/MinGW/lib/gcc/x86_64-w64-mingw32/8.1.0/include/c++/tr1/ell_integral.tcc \
+  C:/MinGW/lib/gcc/x86_64-w64-mingw32/8.1.0/include/c++/tr1/exp_integral.tcc \
+  C:/MinGW/lib/gcc/x86_64-w64-mingw32/8.1.0/include/c++/tr1/gamma.tcc \
+  C:/MinGW/lib/gcc/x86_64-w64-mingw32/8.1.0/include/c++/tr1/hypergeometric.tcc \
+  C:/MinGW/lib/gcc/x86_64-w64-mingw32/8.1.0/include/c++/tr1/legendre_function.tcc \
+  C:/MinGW/lib/gcc/x86_64-w64-mingw32/8.1.0/include/c++/tr1/modified_bessel_func.tcc \
+  C:/MinGW/lib/gcc/x86_64-w64-mingw32/8.1.0/include/c++/tr1/poly_hermite.tcc \
+  C:/MinGW/lib/gcc/x86_64-w64-mingw32/8.1.0/include/c++/tr1/poly_laguerre.tcc \
+  C:/MinGW/lib/gcc/x86_64-w64-mingw32/8.1.0/include/c++/tr1/riemann_zeta.tcc \
+  C:/MinGW/lib/gcc/x86_64-w64-mingw32/8.1.0/include/c++/tr1/special_function_util.h \
   C:/MinGW/lib/gcc/x86_64-w64-mingw32/8.1.0/include/c++/type_traits \
   C:/MinGW/lib/gcc/x86_64-w64-mingw32/8.1.0/include/c++/typeinfo \
   C:/MinGW/lib/gcc/x86_64-w64-mingw32/8.1.0/include/c++/x86_64-w64-mingw32/bits/atomic_word.h \
@@ -109,6 +123,7 @@ CMakeFiles/example.dir/examples/main.cpp.obj: D:/CPP/c_cpp_projs/Library/example
   C:/MinGW/x86_64-w64-mingw32/include/limits.h \
   C:/MinGW/x86_64-w64-mingw32/include/locale.h \
   C:/MinGW/x86_64-w64-mingw32/include/malloc.h \
+  C:/MinGW/x86_64-w64-mingw32/include/math.h \
   C:/MinGW/x86_64-w64-mingw32/include/process.h \
   C:/MinGW/x86_64-w64-mingw32/include/pthread.h \
   C:/MinGW/x86_64-w64-mingw32/include/pthread_compat.h \
@@ -131,7 +146,8 @@ CMakeFiles/example.dir/examples/main.cpp.obj: D:/CPP/c_cpp_projs/Library/example
   C:/MinGW/x86_64-w64-mingw32/include/vadefs.h \
   C:/MinGW/x86_64-w64-mingw32/include/wchar.h \
   C:/MinGW/x86_64-w64-mingw32/include/wctype.h \
-  D:/CPP/c_cpp_projs/Library/include/library/math/vec2.h
+  D:/CPP/c_cpp_projs/Library/include/library/math/mat4.h \
+  D:/CPP/c_cpp_projs/Library/include/library/math/vec4.h
 
 
 C:/MinGW/lib/gcc/x86_64-w64-mingw32/8.1.0/include-fixed/syslimits.h:
@@ -175,6 +191,8 @@ C:/MinGW/lib/gcc/x86_64-w64-mingw32/8.1.0/include/c++/bits/basic_ios.h:
 C:/MinGW/lib/gcc/x86_64-w64-mingw32/8.1.0/include/c++/ostream:
 
 C:/MinGW/lib/gcc/x86_64-w64-mingw32/8.1.0/include/c++/bits/basic_string.h:
+
+C:/MinGW/lib/gcc/x86_64-w64-mingw32/8.1.0/include/c++/bits/specfun.h:
 
 C:/MinGW/lib/gcc/x86_64-w64-mingw32/8.1.0/include/c++/bits/char_traits.h:
 
@@ -232,6 +250,8 @@ C:/MinGW/lib/gcc/x86_64-w64-mingw32/8.1.0/include/c++/bits/memoryfwd.h:
 
 C:/MinGW/lib/gcc/x86_64-w64-mingw32/8.1.0/include/c++/bits/predefined_ops.h:
 
+D:/CPP/c_cpp_projs/Library/include/library/math/mat4.h:
+
 C:/MinGW/lib/gcc/x86_64-w64-mingw32/8.1.0/include/c++/bits/move.h:
 
 C:/MinGW/x86_64-w64-mingw32/include/stdint.h:
@@ -247,6 +267,8 @@ C:/MinGW/lib/gcc/x86_64-w64-mingw32/8.1.0/include/c++/exception:
 C:/MinGW/lib/gcc/x86_64-w64-mingw32/8.1.0/include/c++/bits/stl_iterator_base_types.h:
 
 C:/MinGW/lib/gcc/x86_64-w64-mingw32/8.1.0/include/c++/bits/stl_pair.h:
+
+C:/MinGW/lib/gcc/x86_64-w64-mingw32/8.1.0/include/c++/cmath:
 
 C:/MinGW/lib/gcc/x86_64-w64-mingw32/8.1.0/include/c++/bits/streambuf_iterator.h:
 
@@ -266,6 +288,8 @@ C:/MinGW/lib/gcc/x86_64-w64-mingw32/8.1.0/include/c++/cstdint:
 
 C:/MinGW/lib/gcc/x86_64-w64-mingw32/8.1.0/include/c++/cstdio:
 
+C:/MinGW/lib/gcc/x86_64-w64-mingw32/8.1.0/include/c++/tr1/bessel_function.tcc:
+
 C:/MinGW/lib/gcc/x86_64-w64-mingw32/8.1.0/include/c++/cstdlib:
 
 C:/MinGW/lib/gcc/x86_64-w64-mingw32/8.1.0/include/c++/cwctype:
@@ -277,6 +301,8 @@ C:/MinGW/lib/gcc/x86_64-w64-mingw32/8.1.0/include/c++/ext/atomicity.h:
 C:/MinGW/lib/gcc/x86_64-w64-mingw32/8.1.0/include/c++/x86_64-w64-mingw32/bits/atomic_word.h:
 
 C:/MinGW/lib/gcc/x86_64-w64-mingw32/8.1.0/include/c++/ext/numeric_traits.h:
+
+C:/MinGW/lib/gcc/x86_64-w64-mingw32/8.1.0/include/c++/tr1/gamma.tcc:
 
 C:/MinGW/lib/gcc/x86_64-w64-mingw32/8.1.0/include/c++/string_view:
 
@@ -310,6 +336,26 @@ C:/MinGW/lib/gcc/x86_64-w64-mingw32/8.1.0/include/c++/streambuf:
 
 C:/MinGW/lib/gcc/x86_64-w64-mingw32/8.1.0/include/c++/system_error:
 
+C:/MinGW/lib/gcc/x86_64-w64-mingw32/8.1.0/include/c++/tr1/beta_function.tcc:
+
+C:/MinGW/lib/gcc/x86_64-w64-mingw32/8.1.0/include/c++/tr1/ell_integral.tcc:
+
+C:/MinGW/lib/gcc/x86_64-w64-mingw32/8.1.0/include/c++/tr1/exp_integral.tcc:
+
+C:/MinGW/lib/gcc/x86_64-w64-mingw32/8.1.0/include/c++/tr1/hypergeometric.tcc:
+
+C:/MinGW/lib/gcc/x86_64-w64-mingw32/8.1.0/include/c++/tr1/legendre_function.tcc:
+
+C:/MinGW/lib/gcc/x86_64-w64-mingw32/8.1.0/include/c++/tr1/modified_bessel_func.tcc:
+
+C:/MinGW/lib/gcc/x86_64-w64-mingw32/8.1.0/include/c++/tr1/poly_hermite.tcc:
+
+C:/MinGW/lib/gcc/x86_64-w64-mingw32/8.1.0/include/c++/tr1/poly_laguerre.tcc:
+
+C:/MinGW/lib/gcc/x86_64-w64-mingw32/8.1.0/include/c++/tr1/riemann_zeta.tcc:
+
+C:/MinGW/lib/gcc/x86_64-w64-mingw32/8.1.0/include/c++/tr1/special_function_util.h:
+
 C:/MinGW/lib/gcc/x86_64-w64-mingw32/8.1.0/include/c++/type_traits:
 
 C:/MinGW/lib/gcc/x86_64-w64-mingw32/8.1.0/include/c++/typeinfo:
@@ -331,6 +377,8 @@ C:/MinGW/lib/gcc/x86_64-w64-mingw32/8.1.0/include/c++/x86_64-w64-mingw32/bits/er
 C:/MinGW/lib/gcc/x86_64-w64-mingw32/8.1.0/include/c++/x86_64-w64-mingw32/bits/gthr-default.h:
 
 C:/MinGW/lib/gcc/x86_64-w64-mingw32/8.1.0/include/stddef.h:
+
+C:/MinGW/x86_64-w64-mingw32/include/math.h:
 
 C:/MinGW/lib/gcc/x86_64-w64-mingw32/8.1.0/include/stdint.h:
 
@@ -394,4 +442,4 @@ C:/MinGW/x86_64-w64-mingw32/include/vadefs.h:
 
 C:/MinGW/x86_64-w64-mingw32/include/wchar.h:
 
-D:/CPP/c_cpp_projs/Library/include/library/math/vec2.h:
+D:/CPP/c_cpp_projs/Library/include/library/math/vec4.h:
