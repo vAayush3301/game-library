@@ -1,6 +1,7 @@
 CMakeFiles/example.dir/examples/main.cpp.obj: \
  D:\CPP\c_cpp_projs\Library\examples\main.cpp \
- D:/CPP/c_cpp_projs/Library/include/library/math/vec2.h \
+ D:/CPP/c_cpp_projs/Library/include/library/math/vec4.h \
+ D:/CPP/c_cpp_projs/Library/include/library/math/mat4.h \
  C:/MinGW/lib/gcc/x86_64-w64-mingw32/8.1.0/include/c++/iostream \
  C:/MinGW/lib/gcc/x86_64-w64-mingw32/8.1.0/include/c++/x86_64-w64-mingw32/bits/c++config.h \
  C:/MinGW/lib/gcc/x86_64-w64-mingw32/8.1.0/include/c++/x86_64-w64-mingw32/bits/os_defines.h \

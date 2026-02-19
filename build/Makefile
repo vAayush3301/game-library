@@ -189,6 +189,30 @@ src/core.cpp.s:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\library.dir\build.make CMakeFiles/library.dir/src/core.cpp.s
 .PHONY : src/core.cpp.s
 
+src/math/mat4.obj: src/math/mat4.cpp.obj
+.PHONY : src/math/mat4.obj
+
+# target to build an object file
+src/math/mat4.cpp.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\library.dir\build.make CMakeFiles/library.dir/src/math/mat4.cpp.obj
+.PHONY : src/math/mat4.cpp.obj
+
+src/math/mat4.i: src/math/mat4.cpp.i
+.PHONY : src/math/mat4.i
+
+# target to preprocess a source file
+src/math/mat4.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\library.dir\build.make CMakeFiles/library.dir/src/math/mat4.cpp.i
+.PHONY : src/math/mat4.cpp.i
+
+src/math/mat4.s: src/math/mat4.cpp.s
+.PHONY : src/math/mat4.s
+
+# target to generate assembly for a file
+src/math/mat4.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\library.dir\build.make CMakeFiles/library.dir/src/math/mat4.cpp.s
+.PHONY : src/math/mat4.cpp.s
+
 src/math/vec2.obj: src/math/vec2.cpp.obj
 .PHONY : src/math/vec2.obj
 
@@ -277,6 +301,9 @@ help:
 	@echo ... src/core.obj
 	@echo ... src/core.i
 	@echo ... src/core.s
+	@echo ... src/math/mat4.obj
+	@echo ... src/math/mat4.i
+	@echo ... src/math/mat4.s
 	@echo ... src/math/vec2.obj
 	@echo ... src/math/vec2.i
 	@echo ... src/math/vec2.s
