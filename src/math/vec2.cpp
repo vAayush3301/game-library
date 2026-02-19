@@ -28,7 +28,7 @@ namespace gamelib::math
     }
 
     Vec2 Vec2::normalized() const {
-        float len = length();
+        float len = lengthSquared();
 
         if (len == 0.0f) {
             return Vec2(0.0f, 0.0f);
