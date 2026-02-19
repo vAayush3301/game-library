@@ -189,6 +189,30 @@ src/core.cpp.s:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\library.dir\build.make CMakeFiles/library.dir/src/core.cpp.s
 .PHONY : src/core.cpp.s
 
+src/math/vec2.obj: src/math/vec2.cpp.obj
+.PHONY : src/math/vec2.obj
+
+# target to build an object file
+src/math/vec2.cpp.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\library.dir\build.make CMakeFiles/library.dir/src/math/vec2.cpp.obj
+.PHONY : src/math/vec2.cpp.obj
+
+src/math/vec2.i: src/math/vec2.cpp.i
+.PHONY : src/math/vec2.i
+
+# target to preprocess a source file
+src/math/vec2.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\library.dir\build.make CMakeFiles/library.dir/src/math/vec2.cpp.i
+.PHONY : src/math/vec2.cpp.i
+
+src/math/vec2.s: src/math/vec2.cpp.s
+.PHONY : src/math/vec2.s
+
+# target to generate assembly for a file
+src/math/vec2.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\library.dir\build.make CMakeFiles/library.dir/src/math/vec2.cpp.s
+.PHONY : src/math/vec2.cpp.s
+
 # Help Target
 help:
 	@echo The following are some of the valid targets for this Makefile:
@@ -205,6 +229,9 @@ help:
 	@echo ... src/core.obj
 	@echo ... src/core.i
 	@echo ... src/core.s
+	@echo ... src/math/vec2.obj
+	@echo ... src/math/vec2.i
+	@echo ... src/math/vec2.s
 .PHONY : help
 
 

@@ -6,6 +6,7 @@ set(CMAKE_CXX_STANDARD_REQUIRED ON)
 
 add_library(library
     src/core.cpp
+    src/math/vec2.cpp
 )
 
 target_include_directories(library PUBLIC include)

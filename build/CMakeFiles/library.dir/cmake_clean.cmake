@@ -1,6 +1,8 @@
 file(REMOVE_RECURSE
   "CMakeFiles/library.dir/src/core.cpp.obj"
   "CMakeFiles/library.dir/src/core.cpp.obj.d"
+  "CMakeFiles/library.dir/src/math/vec2.cpp.obj"
+  "CMakeFiles/library.dir/src/math/vec2.cpp.obj.d"
   "liblibrary.a"
   "liblibrary.pdb"
 )
