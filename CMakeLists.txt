@@ -10,6 +10,7 @@ add_library(library
     src/math/vec3.cpp
     src/math/vec4.cpp
     src/math/mat4.cpp
+    src/camera/camera.cpp
 )
 
 target_include_directories(library PUBLIC include)

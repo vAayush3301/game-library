@@ -1,7 +1,5 @@
 CMakeFiles/example.dir/examples/main.cpp.obj: \
  D:\CPP\c_cpp_projs\Library\examples\main.cpp \
- D:/CPP/c_cpp_projs/Library/include/library/math/vec4.h \
- D:/CPP/c_cpp_projs/Library/include/library/math/mat4.h \
  C:/MinGW/lib/gcc/x86_64-w64-mingw32/8.1.0/include/c++/iostream \
  C:/MinGW/lib/gcc/x86_64-w64-mingw32/8.1.0/include/c++/x86_64-w64-mingw32/bits/c++config.h \
  C:/MinGW/lib/gcc/x86_64-w64-mingw32/8.1.0/include/c++/x86_64-w64-mingw32/bits/os_defines.h \
@@ -131,6 +129,11 @@ CMakeFiles/example.dir/examples/main.cpp.obj: \
  C:/MinGW/lib/gcc/x86_64-w64-mingw32/8.1.0/include/c++/bits/ostream.tcc \
  C:/MinGW/lib/gcc/x86_64-w64-mingw32/8.1.0/include/c++/istream \
  C:/MinGW/lib/gcc/x86_64-w64-mingw32/8.1.0/include/c++/bits/istream.tcc \
+ D:/CPP/c_cpp_projs/Library/include/library/math/vec4.h \
+ D:/CPP/c_cpp_projs/Library/include/library/math/transform.h \
+ D:/CPP/c_cpp_projs/Library/include/library/math/vec3.h \
+ D:/CPP/c_cpp_projs/Library/include/library/math/mat4.h \
+ D:/CPP/c_cpp_projs/Library/include/library/camera/Camera.h \
  C:/MinGW/lib/gcc/x86_64-w64-mingw32/8.1.0/include/c++/cmath \
  C:/MinGW/x86_64-w64-mingw32/include/math.h \
  C:/MinGW/lib/gcc/x86_64-w64-mingw32/8.1.0/include/c++/bits/specfun.h \

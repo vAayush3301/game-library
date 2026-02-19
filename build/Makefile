@@ -165,6 +165,30 @@ examples/main.cpp.s:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\example.dir\build.make CMakeFiles/example.dir/examples/main.cpp.s
 .PHONY : examples/main.cpp.s
 
+src/camera/camera.obj: src/camera/camera.cpp.obj
+.PHONY : src/camera/camera.obj
+
+# target to build an object file
+src/camera/camera.cpp.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\library.dir\build.make CMakeFiles/library.dir/src/camera/camera.cpp.obj
+.PHONY : src/camera/camera.cpp.obj
+
+src/camera/camera.i: src/camera/camera.cpp.i
+.PHONY : src/camera/camera.i
+
+# target to preprocess a source file
+src/camera/camera.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\library.dir\build.make CMakeFiles/library.dir/src/camera/camera.cpp.i
+.PHONY : src/camera/camera.cpp.i
+
+src/camera/camera.s: src/camera/camera.cpp.s
+.PHONY : src/camera/camera.s
+
+# target to generate assembly for a file
+src/camera/camera.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\library.dir\build.make CMakeFiles/library.dir/src/camera/camera.cpp.s
+.PHONY : src/camera/camera.cpp.s
+
 src/core.obj: src/core.cpp.obj
 .PHONY : src/core.obj
 
@@ -298,6 +322,9 @@ help:
 	@echo ... examples/main.obj
 	@echo ... examples/main.i
 	@echo ... examples/main.s
+	@echo ... src/camera/camera.obj
+	@echo ... src/camera/camera.i
+	@echo ... src/camera/camera.s
 	@echo ... src/core.obj
 	@echo ... src/core.i
 	@echo ... src/core.s

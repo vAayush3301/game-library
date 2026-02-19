@@ -1,4 +1,6 @@
 file(REMOVE_RECURSE
+  "CMakeFiles/library.dir/src/camera/camera.cpp.obj"
+  "CMakeFiles/library.dir/src/camera/camera.cpp.obj.d"
   "CMakeFiles/library.dir/src/core.cpp.obj"
   "CMakeFiles/library.dir/src/core.cpp.obj.d"
   "CMakeFiles/library.dir/src/math/mat4.cpp.obj"

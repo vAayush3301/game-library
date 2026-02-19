@@ -146,13 +146,29 @@ CMakeFiles/library.dir/src/math/mat4.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/library.dir/src/math/mat4.cpp.s"
 	C:\MinGW\bin\c++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S D:\CPP\c_cpp_projs\Library\src\math\mat4.cpp -o CMakeFiles\library.dir\src\math\mat4.cpp.s
 
+CMakeFiles/library.dir/src/camera/camera.cpp.obj: CMakeFiles/library.dir/flags.make
+CMakeFiles/library.dir/src/camera/camera.cpp.obj: CMakeFiles/library.dir/includes_CXX.rsp
+CMakeFiles/library.dir/src/camera/camera.cpp.obj: D:/CPP/c_cpp_projs/Library/src/camera/camera.cpp
+CMakeFiles/library.dir/src/camera/camera.cpp.obj: CMakeFiles/library.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=D:\CPP\c_cpp_projs\Library\build\CMakeFiles --progress-num=$(CMAKE_PROGRESS_6) "Building CXX object CMakeFiles/library.dir/src/camera/camera.cpp.obj"
+	C:\MinGW\bin\c++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/library.dir/src/camera/camera.cpp.obj -MF CMakeFiles\library.dir\src\camera\camera.cpp.obj.d -o CMakeFiles\library.dir\src\camera\camera.cpp.obj -c D:\CPP\c_cpp_projs\Library\src\camera\camera.cpp
+
+CMakeFiles/library.dir/src/camera/camera.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing CXX source to CMakeFiles/library.dir/src/camera/camera.cpp.i"
+	C:\MinGW\bin\c++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E D:\CPP\c_cpp_projs\Library\src\camera\camera.cpp > CMakeFiles\library.dir\src\camera\camera.cpp.i
+
+CMakeFiles/library.dir/src/camera/camera.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/library.dir/src/camera/camera.cpp.s"
+	C:\MinGW\bin\c++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S D:\CPP\c_cpp_projs\Library\src\camera\camera.cpp -o CMakeFiles\library.dir\src\camera\camera.cpp.s
+
 # Object files for target library
 library_OBJECTS = \
 "CMakeFiles/library.dir/src/core.cpp.obj" \
 "CMakeFiles/library.dir/src/math/vec2.cpp.obj" \
 "CMakeFiles/library.dir/src/math/vec3.cpp.obj" \
 "CMakeFiles/library.dir/src/math/vec4.cpp.obj" \
-"CMakeFiles/library.dir/src/math/mat4.cpp.obj"
+"CMakeFiles/library.dir/src/math/mat4.cpp.obj" \
+"CMakeFiles/library.dir/src/camera/camera.cpp.obj"
 
 # External object files for target library
 library_EXTERNAL_OBJECTS =
@@ -162,9 +178,10 @@ liblibrary.a: CMakeFiles/library.dir/src/math/vec2.cpp.obj
 liblibrary.a: CMakeFiles/library.dir/src/math/vec3.cpp.obj
 liblibrary.a: CMakeFiles/library.dir/src/math/vec4.cpp.obj
 liblibrary.a: CMakeFiles/library.dir/src/math/mat4.cpp.obj
+liblibrary.a: CMakeFiles/library.dir/src/camera/camera.cpp.obj
 liblibrary.a: CMakeFiles/library.dir/build.make
 liblibrary.a: CMakeFiles/library.dir/link.txt
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --bold --progress-dir=D:\CPP\c_cpp_projs\Library\build\CMakeFiles --progress-num=$(CMAKE_PROGRESS_6) "Linking CXX static library liblibrary.a"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --bold --progress-dir=D:\CPP\c_cpp_projs\Library\build\CMakeFiles --progress-num=$(CMAKE_PROGRESS_7) "Linking CXX static library liblibrary.a"
 	$(CMAKE_COMMAND) -P CMakeFiles\library.dir\cmake_clean_target.cmake
 	$(CMAKE_COMMAND) -E cmake_link_script CMakeFiles\library.dir\link.txt --verbose=$(VERBOSE)
 
