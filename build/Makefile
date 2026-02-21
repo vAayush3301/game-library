@@ -213,6 +213,30 @@ src/core.cpp.s:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\library.dir\build.make CMakeFiles/library.dir/src/core.cpp.s
 .PHONY : src/core.cpp.s
 
+src/glad.obj: src/glad.c.obj
+.PHONY : src/glad.obj
+
+# target to build an object file
+src/glad.c.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\library.dir\build.make CMakeFiles/library.dir/src/glad.c.obj
+.PHONY : src/glad.c.obj
+
+src/glad.i: src/glad.c.i
+.PHONY : src/glad.i
+
+# target to preprocess a source file
+src/glad.c.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\library.dir\build.make CMakeFiles/library.dir/src/glad.c.i
+.PHONY : src/glad.c.i
+
+src/glad.s: src/glad.c.s
+.PHONY : src/glad.s
+
+# target to generate assembly for a file
+src/glad.c.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\library.dir\build.make CMakeFiles/library.dir/src/glad.c.s
+.PHONY : src/glad.c.s
+
 src/math/mat4.obj: src/math/mat4.cpp.obj
 .PHONY : src/math/mat4.obj
 
@@ -328,6 +352,9 @@ help:
 	@echo ... src/core.obj
 	@echo ... src/core.i
 	@echo ... src/core.s
+	@echo ... src/glad.obj
+	@echo ... src/glad.i
+	@echo ... src/glad.s
 	@echo ... src/math/mat4.obj
 	@echo ... src/math/mat4.i
 	@echo ... src/math/mat4.s

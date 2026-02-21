@@ -8,6 +8,7 @@ set(CMAKE_DEPENDS_LANGUAGES
 
 # The set of dependency files which are needed:
 set(CMAKE_DEPENDS_DEPENDENCY_FILES
+  "D:/CPP/c_cpp_projs/Library/src/glad.c" "CMakeFiles/library.dir/src/glad.c.obj" "gcc" "CMakeFiles/library.dir/src/glad.c.obj.d"
   "D:/CPP/c_cpp_projs/Library/src/camera/camera.cpp" "CMakeFiles/library.dir/src/camera/camera.cpp.obj" "gcc" "CMakeFiles/library.dir/src/camera/camera.cpp.obj.d"
   "D:/CPP/c_cpp_projs/Library/src/core.cpp" "CMakeFiles/library.dir/src/core.cpp.obj" "gcc" "CMakeFiles/library.dir/src/core.cpp.obj.d"
   "D:/CPP/c_cpp_projs/Library/src/math/mat4.cpp" "CMakeFiles/library.dir/src/math/mat4.cpp.obj" "gcc" "CMakeFiles/library.dir/src/math/mat4.cpp.obj.d"

@@ -76,94 +76,110 @@ CMakeFiles/library.dir/src/core.cpp.obj: CMakeFiles/library.dir/includes_CXX.rsp
 CMakeFiles/library.dir/src/core.cpp.obj: D:/CPP/c_cpp_projs/Library/src/core.cpp
 CMakeFiles/library.dir/src/core.cpp.obj: CMakeFiles/library.dir/compiler_depend.ts
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=D:\CPP\c_cpp_projs\Library\build\CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object CMakeFiles/library.dir/src/core.cpp.obj"
-	C:\MinGW\bin\c++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/library.dir/src/core.cpp.obj -MF CMakeFiles\library.dir\src\core.cpp.obj.d -o CMakeFiles\library.dir\src\core.cpp.obj -c D:\CPP\c_cpp_projs\Library\src\core.cpp
+	C:\MinGW\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/library.dir/src/core.cpp.obj -MF CMakeFiles\library.dir\src\core.cpp.obj.d -o CMakeFiles\library.dir\src\core.cpp.obj -c D:\CPP\c_cpp_projs\Library\src\core.cpp
 
 CMakeFiles/library.dir/src/core.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing CXX source to CMakeFiles/library.dir/src/core.cpp.i"
-	C:\MinGW\bin\c++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E D:\CPP\c_cpp_projs\Library\src\core.cpp > CMakeFiles\library.dir\src\core.cpp.i
+	C:\MinGW\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E D:\CPP\c_cpp_projs\Library\src\core.cpp > CMakeFiles\library.dir\src\core.cpp.i
 
 CMakeFiles/library.dir/src/core.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/library.dir/src/core.cpp.s"
-	C:\MinGW\bin\c++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S D:\CPP\c_cpp_projs\Library\src\core.cpp -o CMakeFiles\library.dir\src\core.cpp.s
+	C:\MinGW\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S D:\CPP\c_cpp_projs\Library\src\core.cpp -o CMakeFiles\library.dir\src\core.cpp.s
+
+CMakeFiles/library.dir/src/glad.c.obj: CMakeFiles/library.dir/flags.make
+CMakeFiles/library.dir/src/glad.c.obj: CMakeFiles/library.dir/includes_C.rsp
+CMakeFiles/library.dir/src/glad.c.obj: D:/CPP/c_cpp_projs/Library/src/glad.c
+CMakeFiles/library.dir/src/glad.c.obj: CMakeFiles/library.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=D:\CPP\c_cpp_projs\Library\build\CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Building C object CMakeFiles/library.dir/src/glad.c.obj"
+	C:\MinGW\bin\gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/library.dir/src/glad.c.obj -MF CMakeFiles\library.dir\src\glad.c.obj.d -o CMakeFiles\library.dir\src\glad.c.obj -c D:\CPP\c_cpp_projs\Library\src\glad.c
+
+CMakeFiles/library.dir/src/glad.c.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing C source to CMakeFiles/library.dir/src/glad.c.i"
+	C:\MinGW\bin\gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E D:\CPP\c_cpp_projs\Library\src\glad.c > CMakeFiles\library.dir\src\glad.c.i
+
+CMakeFiles/library.dir/src/glad.c.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling C source to assembly CMakeFiles/library.dir/src/glad.c.s"
+	C:\MinGW\bin\gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S D:\CPP\c_cpp_projs\Library\src\glad.c -o CMakeFiles\library.dir\src\glad.c.s
 
 CMakeFiles/library.dir/src/math/vec2.cpp.obj: CMakeFiles/library.dir/flags.make
 CMakeFiles/library.dir/src/math/vec2.cpp.obj: CMakeFiles/library.dir/includes_CXX.rsp
 CMakeFiles/library.dir/src/math/vec2.cpp.obj: D:/CPP/c_cpp_projs/Library/src/math/vec2.cpp
 CMakeFiles/library.dir/src/math/vec2.cpp.obj: CMakeFiles/library.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=D:\CPP\c_cpp_projs\Library\build\CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Building CXX object CMakeFiles/library.dir/src/math/vec2.cpp.obj"
-	C:\MinGW\bin\c++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/library.dir/src/math/vec2.cpp.obj -MF CMakeFiles\library.dir\src\math\vec2.cpp.obj.d -o CMakeFiles\library.dir\src\math\vec2.cpp.obj -c D:\CPP\c_cpp_projs\Library\src\math\vec2.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=D:\CPP\c_cpp_projs\Library\build\CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Building CXX object CMakeFiles/library.dir/src/math/vec2.cpp.obj"
+	C:\MinGW\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/library.dir/src/math/vec2.cpp.obj -MF CMakeFiles\library.dir\src\math\vec2.cpp.obj.d -o CMakeFiles\library.dir\src\math\vec2.cpp.obj -c D:\CPP\c_cpp_projs\Library\src\math\vec2.cpp
 
 CMakeFiles/library.dir/src/math/vec2.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing CXX source to CMakeFiles/library.dir/src/math/vec2.cpp.i"
-	C:\MinGW\bin\c++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E D:\CPP\c_cpp_projs\Library\src\math\vec2.cpp > CMakeFiles\library.dir\src\math\vec2.cpp.i
+	C:\MinGW\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E D:\CPP\c_cpp_projs\Library\src\math\vec2.cpp > CMakeFiles\library.dir\src\math\vec2.cpp.i
 
 CMakeFiles/library.dir/src/math/vec2.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/library.dir/src/math/vec2.cpp.s"
-	C:\MinGW\bin\c++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S D:\CPP\c_cpp_projs\Library\src\math\vec2.cpp -o CMakeFiles\library.dir\src\math\vec2.cpp.s
+	C:\MinGW\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S D:\CPP\c_cpp_projs\Library\src\math\vec2.cpp -o CMakeFiles\library.dir\src\math\vec2.cpp.s
 
 CMakeFiles/library.dir/src/math/vec3.cpp.obj: CMakeFiles/library.dir/flags.make
 CMakeFiles/library.dir/src/math/vec3.cpp.obj: CMakeFiles/library.dir/includes_CXX.rsp
 CMakeFiles/library.dir/src/math/vec3.cpp.obj: D:/CPP/c_cpp_projs/Library/src/math/vec3.cpp
 CMakeFiles/library.dir/src/math/vec3.cpp.obj: CMakeFiles/library.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=D:\CPP\c_cpp_projs\Library\build\CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Building CXX object CMakeFiles/library.dir/src/math/vec3.cpp.obj"
-	C:\MinGW\bin\c++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/library.dir/src/math/vec3.cpp.obj -MF CMakeFiles\library.dir\src\math\vec3.cpp.obj.d -o CMakeFiles\library.dir\src\math\vec3.cpp.obj -c D:\CPP\c_cpp_projs\Library\src\math\vec3.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=D:\CPP\c_cpp_projs\Library\build\CMakeFiles --progress-num=$(CMAKE_PROGRESS_4) "Building CXX object CMakeFiles/library.dir/src/math/vec3.cpp.obj"
+	C:\MinGW\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/library.dir/src/math/vec3.cpp.obj -MF CMakeFiles\library.dir\src\math\vec3.cpp.obj.d -o CMakeFiles\library.dir\src\math\vec3.cpp.obj -c D:\CPP\c_cpp_projs\Library\src\math\vec3.cpp
 
 CMakeFiles/library.dir/src/math/vec3.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing CXX source to CMakeFiles/library.dir/src/math/vec3.cpp.i"
-	C:\MinGW\bin\c++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E D:\CPP\c_cpp_projs\Library\src\math\vec3.cpp > CMakeFiles\library.dir\src\math\vec3.cpp.i
+	C:\MinGW\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E D:\CPP\c_cpp_projs\Library\src\math\vec3.cpp > CMakeFiles\library.dir\src\math\vec3.cpp.i
 
 CMakeFiles/library.dir/src/math/vec3.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/library.dir/src/math/vec3.cpp.s"
-	C:\MinGW\bin\c++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S D:\CPP\c_cpp_projs\Library\src\math\vec3.cpp -o CMakeFiles\library.dir\src\math\vec3.cpp.s
+	C:\MinGW\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S D:\CPP\c_cpp_projs\Library\src\math\vec3.cpp -o CMakeFiles\library.dir\src\math\vec3.cpp.s
 
 CMakeFiles/library.dir/src/math/vec4.cpp.obj: CMakeFiles/library.dir/flags.make
 CMakeFiles/library.dir/src/math/vec4.cpp.obj: CMakeFiles/library.dir/includes_CXX.rsp
 CMakeFiles/library.dir/src/math/vec4.cpp.obj: D:/CPP/c_cpp_projs/Library/src/math/vec4.cpp
 CMakeFiles/library.dir/src/math/vec4.cpp.obj: CMakeFiles/library.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=D:\CPP\c_cpp_projs\Library\build\CMakeFiles --progress-num=$(CMAKE_PROGRESS_4) "Building CXX object CMakeFiles/library.dir/src/math/vec4.cpp.obj"
-	C:\MinGW\bin\c++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/library.dir/src/math/vec4.cpp.obj -MF CMakeFiles\library.dir\src\math\vec4.cpp.obj.d -o CMakeFiles\library.dir\src\math\vec4.cpp.obj -c D:\CPP\c_cpp_projs\Library\src\math\vec4.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=D:\CPP\c_cpp_projs\Library\build\CMakeFiles --progress-num=$(CMAKE_PROGRESS_5) "Building CXX object CMakeFiles/library.dir/src/math/vec4.cpp.obj"
+	C:\MinGW\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/library.dir/src/math/vec4.cpp.obj -MF CMakeFiles\library.dir\src\math\vec4.cpp.obj.d -o CMakeFiles\library.dir\src\math\vec4.cpp.obj -c D:\CPP\c_cpp_projs\Library\src\math\vec4.cpp
 
 CMakeFiles/library.dir/src/math/vec4.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing CXX source to CMakeFiles/library.dir/src/math/vec4.cpp.i"
-	C:\MinGW\bin\c++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E D:\CPP\c_cpp_projs\Library\src\math\vec4.cpp > CMakeFiles\library.dir\src\math\vec4.cpp.i
+	C:\MinGW\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E D:\CPP\c_cpp_projs\Library\src\math\vec4.cpp > CMakeFiles\library.dir\src\math\vec4.cpp.i
 
 CMakeFiles/library.dir/src/math/vec4.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/library.dir/src/math/vec4.cpp.s"
-	C:\MinGW\bin\c++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S D:\CPP\c_cpp_projs\Library\src\math\vec4.cpp -o CMakeFiles\library.dir\src\math\vec4.cpp.s
+	C:\MinGW\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S D:\CPP\c_cpp_projs\Library\src\math\vec4.cpp -o CMakeFiles\library.dir\src\math\vec4.cpp.s
 
 CMakeFiles/library.dir/src/math/mat4.cpp.obj: CMakeFiles/library.dir/flags.make
 CMakeFiles/library.dir/src/math/mat4.cpp.obj: CMakeFiles/library.dir/includes_CXX.rsp
 CMakeFiles/library.dir/src/math/mat4.cpp.obj: D:/CPP/c_cpp_projs/Library/src/math/mat4.cpp
 CMakeFiles/library.dir/src/math/mat4.cpp.obj: CMakeFiles/library.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=D:\CPP\c_cpp_projs\Library\build\CMakeFiles --progress-num=$(CMAKE_PROGRESS_5) "Building CXX object CMakeFiles/library.dir/src/math/mat4.cpp.obj"
-	C:\MinGW\bin\c++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/library.dir/src/math/mat4.cpp.obj -MF CMakeFiles\library.dir\src\math\mat4.cpp.obj.d -o CMakeFiles\library.dir\src\math\mat4.cpp.obj -c D:\CPP\c_cpp_projs\Library\src\math\mat4.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=D:\CPP\c_cpp_projs\Library\build\CMakeFiles --progress-num=$(CMAKE_PROGRESS_6) "Building CXX object CMakeFiles/library.dir/src/math/mat4.cpp.obj"
+	C:\MinGW\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/library.dir/src/math/mat4.cpp.obj -MF CMakeFiles\library.dir\src\math\mat4.cpp.obj.d -o CMakeFiles\library.dir\src\math\mat4.cpp.obj -c D:\CPP\c_cpp_projs\Library\src\math\mat4.cpp
 
 CMakeFiles/library.dir/src/math/mat4.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing CXX source to CMakeFiles/library.dir/src/math/mat4.cpp.i"
-	C:\MinGW\bin\c++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E D:\CPP\c_cpp_projs\Library\src\math\mat4.cpp > CMakeFiles\library.dir\src\math\mat4.cpp.i
+	C:\MinGW\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E D:\CPP\c_cpp_projs\Library\src\math\mat4.cpp > CMakeFiles\library.dir\src\math\mat4.cpp.i
 
 CMakeFiles/library.dir/src/math/mat4.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/library.dir/src/math/mat4.cpp.s"
-	C:\MinGW\bin\c++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S D:\CPP\c_cpp_projs\Library\src\math\mat4.cpp -o CMakeFiles\library.dir\src\math\mat4.cpp.s
+	C:\MinGW\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S D:\CPP\c_cpp_projs\Library\src\math\mat4.cpp -o CMakeFiles\library.dir\src\math\mat4.cpp.s
 
 CMakeFiles/library.dir/src/camera/camera.cpp.obj: CMakeFiles/library.dir/flags.make
 CMakeFiles/library.dir/src/camera/camera.cpp.obj: CMakeFiles/library.dir/includes_CXX.rsp
 CMakeFiles/library.dir/src/camera/camera.cpp.obj: D:/CPP/c_cpp_projs/Library/src/camera/camera.cpp
 CMakeFiles/library.dir/src/camera/camera.cpp.obj: CMakeFiles/library.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=D:\CPP\c_cpp_projs\Library\build\CMakeFiles --progress-num=$(CMAKE_PROGRESS_6) "Building CXX object CMakeFiles/library.dir/src/camera/camera.cpp.obj"
-	C:\MinGW\bin\c++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/library.dir/src/camera/camera.cpp.obj -MF CMakeFiles\library.dir\src\camera\camera.cpp.obj.d -o CMakeFiles\library.dir\src\camera\camera.cpp.obj -c D:\CPP\c_cpp_projs\Library\src\camera\camera.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=D:\CPP\c_cpp_projs\Library\build\CMakeFiles --progress-num=$(CMAKE_PROGRESS_7) "Building CXX object CMakeFiles/library.dir/src/camera/camera.cpp.obj"
+	C:\MinGW\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/library.dir/src/camera/camera.cpp.obj -MF CMakeFiles\library.dir\src\camera\camera.cpp.obj.d -o CMakeFiles\library.dir\src\camera\camera.cpp.obj -c D:\CPP\c_cpp_projs\Library\src\camera\camera.cpp
 
 CMakeFiles/library.dir/src/camera/camera.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing CXX source to CMakeFiles/library.dir/src/camera/camera.cpp.i"
-	C:\MinGW\bin\c++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E D:\CPP\c_cpp_projs\Library\src\camera\camera.cpp > CMakeFiles\library.dir\src\camera\camera.cpp.i
+	C:\MinGW\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E D:\CPP\c_cpp_projs\Library\src\camera\camera.cpp > CMakeFiles\library.dir\src\camera\camera.cpp.i
 
 CMakeFiles/library.dir/src/camera/camera.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/library.dir/src/camera/camera.cpp.s"
-	C:\MinGW\bin\c++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S D:\CPP\c_cpp_projs\Library\src\camera\camera.cpp -o CMakeFiles\library.dir\src\camera\camera.cpp.s
+	C:\MinGW\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S D:\CPP\c_cpp_projs\Library\src\camera\camera.cpp -o CMakeFiles\library.dir\src\camera\camera.cpp.s
 
 # Object files for target library
 library_OBJECTS = \
 "CMakeFiles/library.dir/src/core.cpp.obj" \
+"CMakeFiles/library.dir/src/glad.c.obj" \
 "CMakeFiles/library.dir/src/math/vec2.cpp.obj" \
 "CMakeFiles/library.dir/src/math/vec3.cpp.obj" \
 "CMakeFiles/library.dir/src/math/vec4.cpp.obj" \
@@ -174,6 +190,7 @@ library_OBJECTS = \
 library_EXTERNAL_OBJECTS =
 
 liblibrary.a: CMakeFiles/library.dir/src/core.cpp.obj
+liblibrary.a: CMakeFiles/library.dir/src/glad.c.obj
 liblibrary.a: CMakeFiles/library.dir/src/math/vec2.cpp.obj
 liblibrary.a: CMakeFiles/library.dir/src/math/vec3.cpp.obj
 liblibrary.a: CMakeFiles/library.dir/src/math/vec4.cpp.obj
@@ -181,7 +198,7 @@ liblibrary.a: CMakeFiles/library.dir/src/math/mat4.cpp.obj
 liblibrary.a: CMakeFiles/library.dir/src/camera/camera.cpp.obj
 liblibrary.a: CMakeFiles/library.dir/build.make
 liblibrary.a: CMakeFiles/library.dir/link.txt
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --bold --progress-dir=D:\CPP\c_cpp_projs\Library\build\CMakeFiles --progress-num=$(CMAKE_PROGRESS_7) "Linking CXX static library liblibrary.a"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --bold --progress-dir=D:\CPP\c_cpp_projs\Library\build\CMakeFiles --progress-num=$(CMAKE_PROGRESS_8) "Linking CXX static library liblibrary.a"
 	$(CMAKE_COMMAND) -P CMakeFiles\library.dir\cmake_clean_target.cmake
 	$(CMAKE_COMMAND) -E cmake_link_script CMakeFiles\library.dir\link.txt --verbose=$(VERBOSE)
 

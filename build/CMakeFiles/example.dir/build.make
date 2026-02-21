@@ -76,15 +76,15 @@ CMakeFiles/example.dir/examples/main.cpp.obj: CMakeFiles/example.dir/includes_CX
 CMakeFiles/example.dir/examples/main.cpp.obj: D:/CPP/c_cpp_projs/Library/examples/main.cpp
 CMakeFiles/example.dir/examples/main.cpp.obj: CMakeFiles/example.dir/compiler_depend.ts
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=D:\CPP\c_cpp_projs\Library\build\CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object CMakeFiles/example.dir/examples/main.cpp.obj"
-	C:\MinGW\bin\c++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/example.dir/examples/main.cpp.obj -MF CMakeFiles\example.dir\examples\main.cpp.obj.d -o CMakeFiles\example.dir\examples\main.cpp.obj -c D:\CPP\c_cpp_projs\Library\examples\main.cpp
+	C:\MinGW\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/example.dir/examples/main.cpp.obj -MF CMakeFiles\example.dir\examples\main.cpp.obj.d -o CMakeFiles\example.dir\examples\main.cpp.obj -c D:\CPP\c_cpp_projs\Library\examples\main.cpp
 
 CMakeFiles/example.dir/examples/main.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing CXX source to CMakeFiles/example.dir/examples/main.cpp.i"
-	C:\MinGW\bin\c++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E D:\CPP\c_cpp_projs\Library\examples\main.cpp > CMakeFiles\example.dir\examples\main.cpp.i
+	C:\MinGW\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E D:\CPP\c_cpp_projs\Library\examples\main.cpp > CMakeFiles\example.dir\examples\main.cpp.i
 
 CMakeFiles/example.dir/examples/main.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/example.dir/examples/main.cpp.s"
-	C:\MinGW\bin\c++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S D:\CPP\c_cpp_projs\Library\examples\main.cpp -o CMakeFiles\example.dir\examples\main.cpp.s
+	C:\MinGW\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S D:\CPP\c_cpp_projs\Library\examples\main.cpp -o CMakeFiles\example.dir\examples\main.cpp.s
 
 # Object files for target example
 example_OBJECTS = \
@@ -96,6 +96,7 @@ example_EXTERNAL_OBJECTS =
 example.exe: CMakeFiles/example.dir/examples/main.cpp.obj
 example.exe: CMakeFiles/example.dir/build.make
 example.exe: liblibrary.a
+example.exe: D:/CPP/c_cpp_projs/Library/lib/libglfw3.a
 example.exe: CMakeFiles/example.dir/linkLibs.rsp
 example.exe: CMakeFiles/example.dir/objects1.rsp
 example.exe: CMakeFiles/example.dir/link.txt
