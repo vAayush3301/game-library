@@ -1,5 +1,19 @@
 CMakeFiles/example.dir/examples/main.cpp.obj: \
  D:\CPP\c_cpp_projs\Library\examples\main.cpp \
+ D:/CPP/c_cpp_projs/Library/include/glad/glad.h \
+ D:/CPP/c_cpp_projs/Library/include/KHR/khrplatform.h \
+ C:/MinGW/lib/gcc/x86_64-w64-mingw32/8.1.0/include/stdint.h \
+ C:/MinGW/x86_64-w64-mingw32/include/stdint.h \
+ C:/MinGW/x86_64-w64-mingw32/include/crtdefs.h \
+ C:/MinGW/x86_64-w64-mingw32/include/_mingw.h \
+ C:/MinGW/x86_64-w64-mingw32/include/_mingw_mac.h \
+ C:/MinGW/x86_64-w64-mingw32/include/_mingw_secapi.h \
+ C:/MinGW/x86_64-w64-mingw32/include/vadefs.h \
+ C:/MinGW/x86_64-w64-mingw32/include/sdks/_mingw_directx.h \
+ C:/MinGW/x86_64-w64-mingw32/include/sdks/_mingw_ddk.h \
+ C:/MinGW/lib/gcc/x86_64-w64-mingw32/8.1.0/include/stddef.h \
+ C:/MinGW/x86_64-w64-mingw32/include/stddef.h \
+ D:/CPP/c_cpp_projs/Library/include/GLFW/glfw3.h \
  C:/MinGW/lib/gcc/x86_64-w64-mingw32/8.1.0/include/c++/iostream \
  C:/MinGW/lib/gcc/x86_64-w64-mingw32/8.1.0/include/c++/x86_64-w64-mingw32/bits/c++config.h \
  C:/MinGW/lib/gcc/x86_64-w64-mingw32/8.1.0/include/c++/x86_64-w64-mingw32/bits/os_defines.h \
@@ -12,13 +26,6 @@ CMakeFiles/example.dir/examples/main.cpp.obj: \
  C:/MinGW/lib/gcc/x86_64-w64-mingw32/8.1.0/include/c++/bits/postypes.h \
  C:/MinGW/lib/gcc/x86_64-w64-mingw32/8.1.0/include/c++/cwchar \
  C:/MinGW/x86_64-w64-mingw32/include/wchar.h \
- C:/MinGW/x86_64-w64-mingw32/include/crtdefs.h \
- C:/MinGW/x86_64-w64-mingw32/include/_mingw.h \
- C:/MinGW/x86_64-w64-mingw32/include/_mingw_mac.h \
- C:/MinGW/x86_64-w64-mingw32/include/_mingw_secapi.h \
- C:/MinGW/x86_64-w64-mingw32/include/vadefs.h \
- C:/MinGW/x86_64-w64-mingw32/include/sdks/_mingw_directx.h \
- C:/MinGW/x86_64-w64-mingw32/include/sdks/_mingw_ddk.h \
  C:/MinGW/x86_64-w64-mingw32/include/_mingw_print_push.h \
  C:/MinGW/x86_64-w64-mingw32/include/_mingw_off_t.h \
  C:/MinGW/x86_64-w64-mingw32/include/_mingw_stat64.h \
@@ -30,8 +37,6 @@ CMakeFiles/example.dir/examples/main.cpp.obj: \
  C:/MinGW/lib/gcc/x86_64-w64-mingw32/8.1.0/include/c++/bits/exception_ptr.h \
  C:/MinGW/lib/gcc/x86_64-w64-mingw32/8.1.0/include/c++/bits/exception_defines.h \
  C:/MinGW/lib/gcc/x86_64-w64-mingw32/8.1.0/include/c++/bits/cxxabi_init_exception.h \
- C:/MinGW/lib/gcc/x86_64-w64-mingw32/8.1.0/include/stddef.h \
- C:/MinGW/x86_64-w64-mingw32/include/stddef.h \
  C:/MinGW/lib/gcc/x86_64-w64-mingw32/8.1.0/include/c++/typeinfo \
  C:/MinGW/lib/gcc/x86_64-w64-mingw32/8.1.0/include/c++/bits/hash_bytes.h \
  C:/MinGW/lib/gcc/x86_64-w64-mingw32/8.1.0/include/c++/new \
@@ -54,8 +59,6 @@ CMakeFiles/example.dir/examples/main.cpp.obj: \
  C:/MinGW/lib/gcc/x86_64-w64-mingw32/8.1.0/include/c++/debug/debug.h \
  C:/MinGW/lib/gcc/x86_64-w64-mingw32/8.1.0/include/c++/bits/predefined_ops.h \
  C:/MinGW/lib/gcc/x86_64-w64-mingw32/8.1.0/include/c++/cstdint \
- C:/MinGW/lib/gcc/x86_64-w64-mingw32/8.1.0/include/stdint.h \
- C:/MinGW/x86_64-w64-mingw32/include/stdint.h \
  C:/MinGW/lib/gcc/x86_64-w64-mingw32/8.1.0/include/c++/bits/localefwd.h \
  C:/MinGW/lib/gcc/x86_64-w64-mingw32/8.1.0/include/c++/x86_64-w64-mingw32/bits/c++locale.h \
  C:/MinGW/lib/gcc/x86_64-w64-mingw32/8.1.0/include/c++/clocale \
@@ -128,25 +131,4 @@ CMakeFiles/example.dir/examples/main.cpp.obj: \
  C:/MinGW/lib/gcc/x86_64-w64-mingw32/8.1.0/include/c++/bits/basic_ios.tcc \
  C:/MinGW/lib/gcc/x86_64-w64-mingw32/8.1.0/include/c++/bits/ostream.tcc \
  C:/MinGW/lib/gcc/x86_64-w64-mingw32/8.1.0/include/c++/istream \
- C:/MinGW/lib/gcc/x86_64-w64-mingw32/8.1.0/include/c++/bits/istream.tcc \
- D:/CPP/c_cpp_projs/Library/include/library/math/vec4.h \
- D:/CPP/c_cpp_projs/Library/include/library/math/transform.h \
- D:/CPP/c_cpp_projs/Library/include/library/math/vec3.h \
- D:/CPP/c_cpp_projs/Library/include/library/math/mat4.h \
- D:/CPP/c_cpp_projs/Library/include/library/camera/Camera.h \
- C:/MinGW/lib/gcc/x86_64-w64-mingw32/8.1.0/include/c++/cmath \
- C:/MinGW/x86_64-w64-mingw32/include/math.h \
- C:/MinGW/lib/gcc/x86_64-w64-mingw32/8.1.0/include/c++/bits/specfun.h \
- C:/MinGW/lib/gcc/x86_64-w64-mingw32/8.1.0/include/c++/tr1/gamma.tcc \
- C:/MinGW/lib/gcc/x86_64-w64-mingw32/8.1.0/include/c++/tr1/special_function_util.h \
- C:/MinGW/lib/gcc/x86_64-w64-mingw32/8.1.0/include/c++/tr1/bessel_function.tcc \
- C:/MinGW/lib/gcc/x86_64-w64-mingw32/8.1.0/include/c++/tr1/special_function_util.h \
- C:/MinGW/lib/gcc/x86_64-w64-mingw32/8.1.0/include/c++/tr1/beta_function.tcc \
- C:/MinGW/lib/gcc/x86_64-w64-mingw32/8.1.0/include/c++/tr1/ell_integral.tcc \
- C:/MinGW/lib/gcc/x86_64-w64-mingw32/8.1.0/include/c++/tr1/exp_integral.tcc \
- C:/MinGW/lib/gcc/x86_64-w64-mingw32/8.1.0/include/c++/tr1/hypergeometric.tcc \
- C:/MinGW/lib/gcc/x86_64-w64-mingw32/8.1.0/include/c++/tr1/legendre_function.tcc \
- C:/MinGW/lib/gcc/x86_64-w64-mingw32/8.1.0/include/c++/tr1/modified_bessel_func.tcc \
- C:/MinGW/lib/gcc/x86_64-w64-mingw32/8.1.0/include/c++/tr1/poly_hermite.tcc \
- C:/MinGW/lib/gcc/x86_64-w64-mingw32/8.1.0/include/c++/tr1/poly_laguerre.tcc \
- C:/MinGW/lib/gcc/x86_64-w64-mingw32/8.1.0/include/c++/tr1/riemann_zeta.tcc
+ C:/MinGW/lib/gcc/x86_64-w64-mingw32/8.1.0/include/c++/bits/istream.tcc

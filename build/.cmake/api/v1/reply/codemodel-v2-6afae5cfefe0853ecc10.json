@@ -7,7 +7,7 @@
 			[
 				{
 					"build" : ".",
-					"jsonFile" : "directory-.-f6f22219c74102c3da70.json",
+					"jsonFile" : "directory-.-Debug-f6f22219c74102c3da70.json",
 					"minimumCMakeVersion" : 
 					{
 						"string" : "3.15"
@@ -21,7 +21,7 @@
 					]
 				}
 			],
-			"name" : "",
+			"name" : "Debug",
 			"projects" : 
 			[
 				{
@@ -42,14 +42,14 @@
 				{
 					"directoryIndex" : 0,
 					"id" : "example::@6890427a1f51a3e7e1df",
-					"jsonFile" : "target-example-d65e54b2755e173337c4.json",
+					"jsonFile" : "target-example-Debug-e930e900225bf855ef9a.json",
 					"name" : "example",
 					"projectIndex" : 0
 				},
 				{
 					"directoryIndex" : 0,
 					"id" : "library::@6890427a1f51a3e7e1df",
-					"jsonFile" : "target-library-d5f94c994ce02b44e3e0.json",
+					"jsonFile" : "target-library-Debug-d8240e353ffdec32711b.json",
 					"name" : "library",
 					"projectIndex" : 0
 				}
