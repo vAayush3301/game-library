@@ -1,5 +1,5 @@
 #pragma once
-#include "RendererAPI.h"
+#include "../RendererAPI.h"
 
 namespace gamelib::renderer {
     class OpenGLRendererAPI : public RendererAPI {

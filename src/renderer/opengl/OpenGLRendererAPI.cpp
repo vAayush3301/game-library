@@ -1,4 +1,4 @@
-#include "library/renderer/opengl/api/OpenGLRendererAPI.h"
+#include "../../../include/library/renderer/opengl/OpenGLRendererAPI.h"
 #include <glad/glad.h>
 
 namespace gamelib::renderer {
