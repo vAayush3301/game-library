@@ -1,6 +1,13 @@
 #pragma once
 
 #include <string>
+#include <memory>
+
+struct GLFWwindow;
+
+namespace gamelib::renderer {
+    class GraphicsContext;
+}
 
 namespace gamelib::core {
     class Window {
@@ -20,5 +27,8 @@ namespace gamelib::core {
         std::string m_Title;
 
         void* m_NativeWindow = nullptr;
+
+        GLFWwindow* m_WindowHandle;
+        std::unique_ptr<renderer::GraphicsContext> m_Context;
     };
 }

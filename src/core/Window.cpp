@@ -1,4 +1,5 @@
 #include "library/core/Window.h"
+#include "library/renderer/opengl/OpenGLContext.h"
 #include <GLFW/glfw3.h>
 #include <iostream>
 
@@ -33,18 +34,23 @@ namespace gamelib::core {
 
         m_NativeWindow = window;
 
-        glfwMakeContextCurrent(window);
+        m_Context = std::make_unique<renderer::OpenGLContext>(window);
+        m_Context->Init();
     }
 
     void Window::Shutdown() {
+        if (m_NativeWindow) {
+            glfwDestroyWindow((GLFWwindow*)m_NativeWindow);
+            m_NativeWindow = nullptr;
+        }
         glfwTerminate();
     }
 
     void Window::OnUpdate() {
-        if (!m_NativeWindow) return;
+        if (!m_NativeWindow || !m_Context) return;
 
         glfwPollEvents();
-        glfwSwapBuffers((GLFWwindow*)m_NativeWindow);
+        m_Context->SwapBuffers();
     }
 
     bool Window::ShouldClose() const {
