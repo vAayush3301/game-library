@@ -12,11 +12,15 @@ add_library(library
     src/math/vec4.cpp
     src/math/mat4.cpp
     src/camera/camera.cpp
+        src/core/Application.cpp
+        src/core/Window.cpp
 )
 
 target_include_directories(library PUBLIC include)
 
-add_executable(example examples/main.cpp)
+add_executable(example examples/main.cpp
+        include/library/core/Application.h
+        include/library/core/Window.h)
 target_link_libraries(example PRIVATE 
     library
     ${CMAKE_SOURCE_DIR}/lib/libglfw3.a
