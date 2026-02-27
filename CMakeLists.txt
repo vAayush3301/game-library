@@ -19,15 +19,17 @@ add_library(library
         src/renderer/opengl/api/RenderCommand.cpp
 )
 
-target_include_directories(library PUBLIC include)
+target_include_directories(library PUBLIC
+        ${CMAKE_CURRENT_SOURCE_DIR}/include
+)
 
-add_executable(example examples/main.cpp)
-
-target_link_libraries(example PRIVATE
-        library
+target_link_libraries(library PUBLIC
         ${CMAKE_SOURCE_DIR}/lib/libglfw3.a
         opengl32
         gdi32
         user32
         shell32
 )
+
+add_executable(example examples/main.cpp)
+target_link_libraries(example PRIVATE library)
