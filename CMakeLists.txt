@@ -14,6 +14,8 @@ add_library(library
         src/camera/camera.cpp
         src/core/Application.cpp
         src/core/Window.cpp
+        src/renderer/opengl/api/OpenGLRendererAPI.cpp
+        src/renderer/opengl/OpenGLContext.cpp
 )
 
 target_include_directories(library PUBLIC include)
