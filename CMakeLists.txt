@@ -19,11 +19,12 @@ add_library(library
 target_include_directories(library PUBLIC include)
 
 add_executable(example examples/main.cpp)
-target_link_libraries(example PRIVATE 
-    library
-    ${CMAKE_SOURCE_DIR}/lib/libglfw3.a
-    opengl32
-    gdi32
-    user32
-    shell32
+
+target_link_libraries(example PRIVATE
+        library
+        ${CMAKE_SOURCE_DIR}/lib/libglfw3.a
+        opengl32
+        gdi32
+        user32
+        shell32
 )
