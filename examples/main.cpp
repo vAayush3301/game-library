@@ -1,7 +1,11 @@
-#include <glad/glad.h>
-#include <GLFW/glfw3.h>
-#include <iostream>
+#include "library/core/Application.h"
 
 int main() {
-    return 0;
+    gamelib::core::ApplicationSpecification spec;
+    spec.Name = "Window";
+    spec.Width = 1000;
+    spec.Height = 800;
+
+    gamelib::core::Application app(spec);
+    app.Run();
 }

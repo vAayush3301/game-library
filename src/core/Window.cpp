@@ -25,6 +25,12 @@ namespace gamelib::core {
             nullptr
         );
 
+        if (!window) {
+            std::cout << "Failed to create GLFW window!" << std::endl;
+            glfwTerminate();
+            return;
+        }
+
         m_NativeWindow = window;
 
         glfwMakeContextCurrent(window);
@@ -35,7 +41,13 @@ namespace gamelib::core {
     }
 
     void Window::OnUpdate() {
+        if (!m_NativeWindow) return;
+
         glfwPollEvents();
         glfwSwapBuffers((GLFWwindow*)m_NativeWindow);
+    }
+
+    bool Window::ShouldClose() const {
+        return glfwWindowShouldClose((GLFWwindow*)m_NativeWindow);
     }
 }

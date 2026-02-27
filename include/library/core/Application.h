@@ -1,19 +1,27 @@
 #pragma once
 
 #include <memory>
+#include <string>
 
 namespace gamelib::core {
+    struct ApplicationSpecification {
+        std::string Name = "GameLib";
+        uint32_t Width = 1280;
+        uint32_t Height = 720;
+    };
+
     class Window;
 
     class Application {
     public:
-        Application();
+        Application(const ApplicationSpecification& spec);
         ~Application();
 
         void Run();
 
     private:
+        ApplicationSpecification m_Specification;
         std::unique_ptr<Window> m_Window;
-        bool m_running = true;
+        bool m_Running = true;
     };
 }

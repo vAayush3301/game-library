@@ -15,7 +15,6 @@ namespace gamelib::core {
         void Init();
         void Shutdown();
 
-    private:
         unsigned int m_width;
         unsigned int m_height;
         std::string m_Title;

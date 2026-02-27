@@ -2,8 +2,12 @@
 #include "library/core/Window.h"
 
 namespace gamelib::core {
-    Application::Application() {
-        m_Window = std::make_unique<Window>(800, 600, "GameLib");
+    Application::Application(const ApplicationSpecification& spec) : m_Specification(spec) {
+        m_Window = std::make_unique<Window>(
+            m_Specification.Width,
+            m_Specification.Height,
+            m_Specification.Name
+        );
     }
 
     Application::~Application() {
@@ -11,7 +15,7 @@ namespace gamelib::core {
     }
 
     void Application::Run() {
-        while (m_running && !m_Window -> ShouldClose()) {
+        while (m_Running && !m_Window -> ShouldClose()) {
             m_Window -> OnUpdate();
         }
     }
