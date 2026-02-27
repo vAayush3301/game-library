@@ -1,5 +1,6 @@
 #include "library/core/Application.h"
 #include "library/core/Window.h"
+#include "library/renderer/opengl/api/RenderCommand.h"
 
 namespace gamelib::core {
     Application::Application(const ApplicationSpecification& spec) : m_Specification(spec) {
@@ -15,7 +16,10 @@ namespace gamelib::core {
     }
 
     void Application::Run() {
-        while (m_Running && !m_Window -> ShouldClose()) {
+        while (!m_Window -> ShouldClose()) {
+            renderer::RenderCommand::SetClearColor(0.1f, 0.1f, 0.1f, 1.0f);
+            renderer::RenderCommand::Clear();
+
             m_Window -> OnUpdate();
         }
     }
