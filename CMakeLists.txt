@@ -16,6 +16,7 @@ add_library(library
         src/core/Window.cpp
         src/renderer/opengl/OpenGLRendererAPI.cpp
         src/renderer/opengl/OpenGLContext.cpp
+        src/renderer/opengl/api/RenderCommand.cpp
 )
 
 target_include_directories(library PUBLIC include)
