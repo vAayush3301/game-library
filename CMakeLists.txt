@@ -3,6 +3,9 @@ project(Library)
 
 set(CMAKE_CXX_STANDARD 17)
 set(CMAKE_CXX_STANDARD_REQUIRED ON)
+set(GLFW_PATH ${CMAKE_SOURCE_DIR}/third_party/glfw)
+
+set_source_files_properties(src/glad.c PROPERTIES LANGUAGE C)
 
 add_library(library
         src/core.cpp
@@ -21,10 +24,11 @@ add_library(library
 
 target_include_directories(library PUBLIC
         ${CMAKE_CURRENT_SOURCE_DIR}/include
+        ${GLFW_PATH}/include
 )
 
 target_link_libraries(library PUBLIC
-        ${CMAKE_SOURCE_DIR}/lib/libglfw3.a
+        ${GLFW_PATH}/build/src/libglfw3.a
         opengl32
         gdi32
         user32

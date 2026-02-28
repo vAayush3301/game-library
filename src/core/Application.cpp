@@ -3,7 +3,7 @@
 #include "library/renderer/opengl/api/RenderCommand.h"
 
 namespace gamelib::core {
-    Application::Application(const ApplicationSpecification& spec) : m_Specification(spec) {
+    Application::Application(const ApplicationSpecification &spec) : m_Specification(spec) {
         m_Window = std::make_unique<Window>(
             m_Specification.Width,
             m_Specification.Height,
@@ -16,11 +16,13 @@ namespace gamelib::core {
     }
 
     void Application::Run() {
-        while (!m_Window -> ShouldClose()) {
+        renderer::RenderCommand::Init();
+
+        while (!m_Window->ShouldClose()) {
             renderer::RenderCommand::SetClearColor(0.1f, 0.1f, 0.1f, 1.0f);
             renderer::RenderCommand::Clear();
 
-            m_Window -> OnUpdate();
+            m_Window->OnUpdate();
         }
     }
 }
