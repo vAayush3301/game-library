@@ -1,5 +1,6 @@
 #include "glad/glad.h"
 #include "library/core/Application.h"
+#include "library/renderer/ElementBuffer.h"
 #include "library/renderer/Shader.h"
 #include "library/renderer/VertexArray.h"
 
@@ -16,18 +17,29 @@ private:
     std::unique_ptr<gamelib::renderer::VertexArray> m_VA;
     std::unique_ptr<gamelib::renderer::VertexBuffer> m_VB;
     std::unique_ptr<gamelib::renderer::Shader> m_Shader;
+    std::unique_ptr<gamelib::renderer::ElementBuffer> m_EBO;
 };
 
 void Sandbox::OnInit() {
     float vertices[] = {
-        0.0f, 0.5f,
         -0.5f, -0.5f,
         0.5f, -0.5f,
+        0.5f,  0.5f,
+        -0.5f, 0.5f
+    };
+
+    uint32_t indices[] = {
+        0, 1, 2,
+        2, 3, 0,
     };
 
     m_VA = std::make_unique<gamelib::renderer::VertexArray>();
+    m_VA->Bind();
+
     m_VB = std::make_unique<gamelib::renderer::VertexBuffer>(vertices, sizeof(vertices));
     m_VA->AddBuffer(*m_VB);
+
+    m_EBO = std::make_unique<gamelib::renderer::ElementBuffer>(indices, 6);
 
     std::string vertexSrc = R"(
                 #version 330 core
@@ -55,7 +67,7 @@ void Sandbox::OnInit() {
 void Sandbox::OnUpdate(float dt) {
     m_Shader->Bind();
     m_VA->Bind();
-    glDrawArrays(GL_TRIANGLES, 0, 3);
+    glDrawElements(GL_TRIANGLES, m_EBO->GetCount(), GL_UNSIGNED_INT, nullptr);
 }
 
 int main() {
