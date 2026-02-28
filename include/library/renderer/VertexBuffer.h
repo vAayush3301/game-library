@@ -1,11 +1,17 @@
-class VertexBuffer {
-public:
-    VertexBuffer(const void* data, unsigned int size);
-    ~VertexBuffer();
+#pragma once
 
-    void Bind() const;
-    void Unbind() const;
+namespace gamelib::renderer {
+    class VertexBuffer {
+    public:
+        VertexBuffer(const void *data, unsigned int size);
 
-private:
-    unsigned int m_RendererID;
-};
+        ~VertexBuffer();
+
+        void Bind() const;
+
+        void Unbind() const;
+
+    private:
+        unsigned int m_RendererID;
+    };
+}

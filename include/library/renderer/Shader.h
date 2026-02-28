@@ -1,13 +1,19 @@
+#pragma once
+
 #include <string>
 
-class Shader {
-public:
-    Shader(const std::string& vertexPath, const std::string& fragmentPath);
-    ~Shader();
+namespace gamelib::renderer {
+    class Shader {
+    public:
+        Shader(const std::string &vertexPath, const std::string &fragmentPath);
 
-    void Bind() const;
-    void Unbind() const;
+        ~Shader();
 
-private:
-    unsigned int m_RendererID;
-};
+        void Bind() const;
+
+        void Unbind() const;
+
+    private:
+        unsigned int m_RendererID;
+    };
+}

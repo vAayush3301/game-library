@@ -22,6 +22,8 @@ add_library(library
         src/renderer/opengl/api/RenderCommand.cpp
         src/renderer/VertexBuffer.cpp
         src/renderer/VertexArray.cpp
+        src/renderer/Renderer.cpp
+        src/renderer/Shader.cpp
 )
 
 target_include_directories(library PUBLIC

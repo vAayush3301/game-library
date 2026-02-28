@@ -1,15 +1,21 @@
+#pragma once
+
 #include "VertexBuffer.h"
 
-class VertexArray {
-public:
-    VertexArray();
-    ~VertexArray();
+namespace gamelib::renderer {
+    class VertexArray {
+    public:
+        VertexArray();
 
-    void Bind() const;
-    void Unbind() const;
+        ~VertexArray();
 
-    void AddBuffer(const VertexBuffer& vb);
+        void Bind() const;
 
-private:
-    unsigned int m_RendererID;
-};
+        void Unbind() const;
+
+        void AddBuffer(const VertexBuffer &vb);
+
+    private:
+        unsigned int m_RendererID;
+    };
+}
