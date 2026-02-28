@@ -18,11 +18,17 @@ namespace gamelib::core {
     void Application::Run() {
         renderer::RenderCommand::Init();
 
+        OnInit();
+
         while (!m_Window->ShouldClose()) {
             renderer::RenderCommand::SetClearColor(0.1f, 0.1f, 0.1f, 1.0f);
             renderer::RenderCommand::Clear();
 
+            OnUpdate(0.0f);
+
             m_Window->OnUpdate();
         }
+
+        OnShutdown();
     }
 }

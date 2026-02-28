@@ -15,9 +15,14 @@ namespace gamelib::core {
     class Application {
     public:
         Application(const ApplicationSpecification& spec);
-        ~Application();
+        virtual ~Application();
 
         void Run();
+
+    protected:
+        virtual void OnInit() {}
+        virtual void OnUpdate(float dt) {}
+        virtual void OnShutdown() {}
 
     private:
         ApplicationSpecification m_Specification;
