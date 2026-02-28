@@ -1,3 +1,5 @@
+#include "VertexBuffer.h"
+
 class VertexArray {
 public:
     VertexArray();
