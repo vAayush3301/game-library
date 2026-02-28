@@ -24,6 +24,7 @@ add_library(library
         src/renderer/VertexArray.cpp
         src/renderer/Renderer.cpp
         src/renderer/Shader.cpp
+        src/renderer/ElementBuffer.cpp
 )
 
 target_include_directories(library PUBLIC
