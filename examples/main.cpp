@@ -1,6 +1,7 @@
 #include "glad/glad.h"
 #include "library/core/Application.h"
 #include "library/renderer/ElementBuffer.h"
+#include "library/renderer/Renderer.h"
 #include "library/renderer/Shader.h"
 #include "library/renderer/VertexArray.h"
 
@@ -24,7 +25,7 @@ void Sandbox::OnInit() {
     float vertices[] = {
         -0.5f, -0.5f,
         0.5f, -0.5f,
-        0.5f,  0.5f,
+        0.5f, 0.5f,
         -0.5f, 0.5f
     };
 
@@ -66,8 +67,7 @@ void Sandbox::OnInit() {
 
 void Sandbox::OnUpdate(float dt) {
     m_Shader->Bind();
-    m_VA->Bind();
-    glDrawElements(GL_TRIANGLES, m_EBO->GetCount(), GL_UNSIGNED_INT, nullptr);
+    gamelib::renderer::Renderer::DrawIndexed(*m_VA, m_EBO->GetCount());
 }
 
 int main() {

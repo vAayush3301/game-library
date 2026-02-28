@@ -13,4 +13,9 @@ namespace gamelib::renderer {
         va.Bind();
         glDrawArrays(GL_TRIANGLES, 0, 3);
     }
+
+    void Renderer::DrawIndexed(const VertexArray& vertexArray, uint32_t indexCount) {
+        vertexArray.Bind();
+        glDrawElements(GL_TRIANGLES, indexCount, GL_UNSIGNED_INT, nullptr);
+    }
 }

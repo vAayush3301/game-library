@@ -9,5 +9,7 @@ namespace gamelib::renderer {
         void Clear() const;
 
         void Draw(const VertexArray &va, const Shader &shader) const;
+
+        static void DrawIndexed(const VertexArray& vertexArray, uint32_t indexCount);
     };
 }
