@@ -103,6 +103,12 @@
 },
 {
   "directory": "D:/CPP/c_cpp_projs/Library/build",
+  "command": "C:\\MinGW\\bin\\c++.exe -ID:/CPP/c_cpp_projs/Library/include -ID:/CPP/c_cpp_projs/Library/third_party/glfw/include -g -std=gnu++17 -fdiagnostics-color=always -o CMakeFiles\\library.dir\\src\\renderer\\Mesh.cpp.obj -c D:\\CPP\\c_cpp_projs\\Library\\src\\renderer\\Mesh.cpp",
+  "file": "D:/CPP/c_cpp_projs/Library/src/renderer/Mesh.cpp",
+  "output": "D:/CPP/c_cpp_projs/Library/build/CMakeFiles/library.dir/src/renderer/Mesh.cpp.obj"
+},
+{
+  "directory": "D:/CPP/c_cpp_projs/Library/build",
   "command": "C:\\MinGW\\bin\\c++.exe -ID:/CPP/c_cpp_projs/Library/include -ID:/CPP/c_cpp_projs/Library/third_party/glfw/include -g -std=gnu++17 -fdiagnostics-color=always -o CMakeFiles\\example.dir\\examples\\main.cpp.obj -c D:\\CPP\\c_cpp_projs\\Library\\examples\\main.cpp",
   "file": "D:/CPP/c_cpp_projs/Library/examples/main.cpp",
   "output": "D:/CPP/c_cpp_projs/Library/build/CMakeFiles/example.dir/examples/main.cpp.obj"

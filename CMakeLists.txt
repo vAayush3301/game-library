@@ -25,6 +25,7 @@ add_library(library
         src/renderer/Renderer.cpp
         src/renderer/Shader.cpp
         src/renderer/ElementBuffer.cpp
+        src/renderer/Mesh.cpp
 )
 
 target_include_directories(library PUBLIC

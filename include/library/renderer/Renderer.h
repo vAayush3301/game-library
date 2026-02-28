@@ -1,6 +1,6 @@
 #pragma once
 
-#include "VertexArray.h"
+#include "Mesh.h"
 #include "Shader.h"
 
 namespace gamelib::renderer {
@@ -10,6 +10,6 @@ namespace gamelib::renderer {
 
         void Draw(const VertexArray &va, const Shader &shader) const;
 
-        static void DrawIndexed(const VertexArray& vertexArray, uint32_t indexCount);
+        static void DrawIndexed(const Mesh& mesh);
     };
 }

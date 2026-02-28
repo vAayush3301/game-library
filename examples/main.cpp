@@ -15,10 +15,8 @@ protected:
     void OnUpdate(float dt) override;
 
 private:
-    std::unique_ptr<gamelib::renderer::VertexArray> m_VA;
-    std::unique_ptr<gamelib::renderer::VertexBuffer> m_VB;
     std::unique_ptr<gamelib::renderer::Shader> m_Shader;
-    std::unique_ptr<gamelib::renderer::ElementBuffer> m_EBO;
+    std::unique_ptr<gamelib::renderer::Mesh> m_Mesh;
 };
 
 void Sandbox::OnInit() {
@@ -34,13 +32,7 @@ void Sandbox::OnInit() {
         2, 3, 0,
     };
 
-    m_VA = std::make_unique<gamelib::renderer::VertexArray>();
-    m_VA->Bind();
-
-    m_VB = std::make_unique<gamelib::renderer::VertexBuffer>(vertices, sizeof(vertices));
-    m_VA->AddBuffer(*m_VB);
-
-    m_EBO = std::make_unique<gamelib::renderer::ElementBuffer>(indices, 6);
+    m_Mesh = std::make_unique<gamelib::renderer::Mesh>(vertices, sizeof(vertices), indices, 6);
 
     std::string vertexSrc = R"(
                 #version 330 core
@@ -67,7 +59,7 @@ void Sandbox::OnInit() {
 
 void Sandbox::OnUpdate(float dt) {
     m_Shader->Bind();
-    gamelib::renderer::Renderer::DrawIndexed(*m_VA, m_EBO->GetCount());
+    gamelib::renderer::Renderer::DrawIndexed(*m_Mesh);
 }
 
 int main() {
