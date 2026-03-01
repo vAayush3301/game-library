@@ -1,23 +1,27 @@
 #pragma once
-#include "library/math/vec3.h"
+#include "library/math/vec2.h"
 #include "library/math/mat4.h"
 
 namespace gamelib::math {
-    struct Transform {
-        Vec3 position {0, 0, 0};
-        Vec3 rotation {0, 0, 0};
-        Vec3 scale {1, 1, 1};
+    class Transform2D {
+    public:
+        Transform2D();
+        Transform2D(float x, float y, float scaleX, float scaleY, float rotationDeg = 0.0f);
 
-        Mat4 getModelMatrix() const {
-            Mat4 T = Mat4::translation(position.x, position.y, position.z);
-            Mat4 Rx = Mat4::rotationX(rotation.x);
-            Mat4 Ry = Mat4::rotationX(rotation.y);
-            Mat4 Rz = Mat4::rotationX(rotation.z);
-            Mat4 S = Mat4::scale(scale.x, scale.y, scale.z);
+        void SetPosition(float x, float y);
+        void SetScale(float x, float y);
+        void SetRotation(float degrees);
 
-            Mat4 R = Rz * Ry * Rx;
+        const Mat4& GetMatrix();
 
-            return T * R * S;
-        }
+    private:
+        void Recalculate();
+
+        Vec2 m_Position = {0.0f, 0.0f};
+        Vec2 m_Scale = {1.0f, 1.0f};
+        float m_Rotation = 0.0f;
+
+        Mat4 m_ModelMatrix;
+        bool m_Dirty = true;
     };
 }
