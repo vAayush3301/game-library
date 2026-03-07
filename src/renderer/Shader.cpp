@@ -51,6 +51,11 @@ namespace gamelib::renderer {
         glDeleteProgram(m_RendererID);
     }
 
+    void Shader::SetMat4(const std::string &name, const float *value) {
+        GLint location = glGetUniformLocation(m_RendererID, name.c_str());
+        glUniformMatrix4fv(location, 1, GL_FALSE, value);
+    }
+
     void Shader::Bind() const {
         glUseProgram(m_RendererID);
     }

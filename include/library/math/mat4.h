@@ -15,5 +15,6 @@ namespace gamelib::math {
         Mat4 operator*(const Mat4& other) const;
         Vec4 operator*(const Vec4& v) const;
 
+        const float* Data() const { return &m[0][0]; }
     };
 }

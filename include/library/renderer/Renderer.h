@@ -10,6 +10,6 @@ namespace gamelib::renderer {
 
         void Draw(const VertexArray &va, const Shader &shader) const;
 
-        static void DrawIndexed(const Mesh& mesh);
+        static void DrawIndexed(const Mesh& mesh, Shader& shader);
     };
 }

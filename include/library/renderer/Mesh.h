@@ -16,8 +16,8 @@ namespace gamelib::renderer {
 
         uint32_t GetIndexCount() const { return m_IndexCount; }
 
-        gamelib::math::Transform2D GetTransform() { return m_Transform; }
-        const gamelib::math::Transform2D GetTransform() const { return m_Transform; }
+        math::Transform2D GetTransform() { return m_Transform; }
+        const math::Transform2D GetTransform() const { return m_Transform; }
 
     private:
         std::unique_ptr<VertexArray> m_VAO;
@@ -26,6 +26,6 @@ namespace gamelib::renderer {
 
         uint32_t m_IndexCount;
 
-        gamelib::math::Transform2D m_Transform;
+        math::Transform2D m_Transform;
     };
 }
